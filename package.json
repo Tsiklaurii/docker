@@ -1,0 +1,27 @@
+{
+    "name": "docker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tsiklaurii/docker.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Tsiklaurii/docker/issues"
+    },
+    "homepage": "https://github.com/Tsiklaurii/docker#readme",
+    "dependencies": {
+        "express": "^5.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
